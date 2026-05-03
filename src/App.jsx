@@ -9,6 +9,7 @@ import Footer from './components/Footer'
 
 import Login from './components/Login'
 import Register from './components/Register'
+import Cart from './components/Cart'
 
 import './App.css'
 
@@ -22,7 +23,8 @@ function App() {
     
     <Navbar/>
 
-  <CardPizza/>
+  {/* <CardPizza/> */}
+    <Cart/>
   
 
     <Footer/>
